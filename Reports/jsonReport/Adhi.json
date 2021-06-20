@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22894067700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To get into the Apec page",
+            "match": {
+              "location": "AdhiStep.to_get_into_the_Apec_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-19T16:01:46.236Z",
+        "line": 7,
+        "name": "To validate the home about us field",
+        "description": "",
+        "id": "to-validate-apec-front-page;to-validate-the-home-about-us-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 300691099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To move to the home button",
+            "match": {
+              "location": "AdhiStep.to_move_to_the_home_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3535992301,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the about us field",
+            "match": {
+              "location": "AdhiStep.click_the_about_us_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20875998600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To get into the Apec page",
+            "match": {
+              "location": "AdhiStep.to_get_into_the_Apec_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-19T16:02:13.228Z",
+        "line": 12,
+        "name": "To validate the home virtual tour field",
+        "description": "",
+        "id": "to-validate-apec-front-page;to-validate-the-home-virtual-tour-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177752599,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To move to home button",
+            "match": {
+              "location": "AdhiStep.to_move_to_home_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4288796200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the virtual tour field",
+            "match": {
+              "location": "AdhiStep.click_the_virtual_tour_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Apec front page",
+    "description": "",
+    "id": "to-validate-apec-front-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Adhi.feature",
+    "tags": []
+  }
+]

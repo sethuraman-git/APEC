@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="52.204967">
+<testcase classname="To validate Apec front page" name="To validate the home about us field" time="26.86094">
+<system-out><![CDATA[Given To get into the Apec page.............................................passed
+When To move to the home button.............................................passed
+Then click the about us field...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Apec front page" name="To validate the home virtual tour field" time="25.344027">
+<system-out><![CDATA[Given To get into the Apec page.............................................passed
+When To move to home button.................................................passed
+Then click the virtual tour field...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
